@@ -2,12 +2,11 @@
 
 Code tested with Teensy 2.0 (AT90USB1286)
 
-TT Connector pinout
-_____
-|1 2|
-\3_4/
+Please note that the turntable is powered by 3.3 volts only. If you apply 5 volts to it you will burn it!
 
-1 - RED
-2 - GREEN
-3 - BLUE
-4 - YELLOW
+Balck	- GND
+Blue 	- GND
+Red		- 3.3v  (use DC-DC 5v to 3.3v)
+Green	- D0
+Yellow	- D1
+White	- Not Connected
